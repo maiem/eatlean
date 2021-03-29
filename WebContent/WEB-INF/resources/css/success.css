@@ -1,0 +1,53 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: rgba(0, 0, 0, 0.199);
+	background-image: url("../img/bg1.jpg");
+	background-position: 65%;
+	background-blend-mode: darken;
+	background-size: cover;
+	margin: 0;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+body form {
+	background: #c2e9fb96;
+	width: 500px;
+	border-radius: 10px;
+	padding: 50px;
+}
+
+body form h2 {
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+
+body form>input {
+	border: 1px solid #29e0d1;
+	margin: 15px 0;
+	width: 400px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+body form button {
+	width: 50px;
+	padding: 10px;
+	letter-spacing: 1px;
+	background: #9657f6;
+	border-radius: 20px;
+	border: none;
+}
+
+body form button:hover {
+	color: #ad5b5b9a;
+}

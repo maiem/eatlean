@@ -1,0 +1,380 @@
+.f-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.f-space {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+body, html {
+	font-family: 'Poppins', sans-serif;
+}
+
+.red {
+	background: #FF3A46;
+}
+
+.green {
+	background: #00ebac;
+}
+
+.blue {
+	background: #9657f6;
+}
+
+.color-green {
+	color: #00ebac;
+}
+
+.color-blue {
+	color: #00a3e2;
+}
+
+.color-purple {
+	color: #9657f6;
+}
+
+.color-red {
+	color: #e53b2c;
+}
+
+.color-orange {
+	color: #feb155;
+}
+
+.color-bgreen {
+	color: #0ca799;
+}
+
+.active {
+	color: #05b993 !important;
+}
+
+.none {
+	display: none;
+}
+
+.block {
+	display: block;
+}
+
+.login, .register {
+	margin: 10px;
+	background: #0ca799;
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+
+header {
+	z-index: 10;
+	-webkit-box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, 0.1);
+	box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, 0.1);
+}
+
+header .container {
+	width: 1300px;
+	margin: 0 auto;
+}
+
+header .container .logo {
+	color: #705ecf;
+	font-size: 35px;
+}
+
+header .container .logo h1 {
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 35px;
+}
+
+header .container .navbar>ul {
+	width: 510px;
+}
+
+header .container .navbar>ul li {
+	position: relative;
+}
+
+header .container .navbar>ul li:hover .dropdown {
+	display: block;
+}
+
+header .container .navbar>ul li a {
+	color: #202428;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+
+header .container .navbar>ul li a:hover {
+	color: #05b993;
+}
+
+header .container .navbar>ul li a:hover i {
+	color: #05b993;
+}
+
+header .container .navbar>ul li .dropdown {
+	z-index: 10;
+	display: none;
+	position: absolute;
+	top: 25px;
+	left: -10px;
+	background: #000;
+	width: 200px;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+header .container .navbar>ul li .dropdown ul li {
+	padding: 5px;
+}
+
+header .container .navbar>ul li .dropdown ul li a {
+	color: white;
+}
+
+header .container .navbar>ul li .dropdown ul li a:hover {
+	color: #05b993;
+}
+
+header .container .search .input input, header .container .search .input button
+	{
+	border: none;
+	padding: 14px;
+	font-size: 12px;
+}
+
+header .container .search .input input {
+	width: 200px;
+	background: #f7f7f7;
+	color: #000;
+	letter-spacing: 2px;
+}
+
+header .container .search .input button {
+	margin-left: -5px;
+	background: #05b993;
+	color: white;
+}
+
+header .container .search .input button:hover {
+	background: #07daac;
+}
+
+header .container .search .cloud {
+	background: #705ecf;
+	font-size: 12px;
+	color: white;
+	border-radius: 5px;
+	padding: 12px 14px;
+	margin: 20px;
+}
+
+header .container .search .cloud:hover {
+	background: #7b65e6;
+}
+
+.add, .update {
+	margin: 20px 0;
+	width: 450px;
+}
+
+.add h1, .update h1 {
+	text-align: center;
+	margin: 30px;
+}
+
+.add input, .update input {
+	margin: 10px 0;
+	width: 450px;
+	border: none;
+	padding: 16px;
+	letter-spacing: 2px;
+	background: #fff;
+	color: #51585f;
+	border: 1px solid #05b993;
+	-webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+	box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+}
+
+.add button, .update button {
+	margin: 20px;
+	background: #705ecf;
+	font-size: 15px;
+	padding: 16px 30px;
+	margin-left: -5px;
+	color: white;
+	border: none;
+	border-radius: 19px;
+	letter-spacing: 1px;
+}
+
+.add button:hover, .update button:hover {
+	background: #816ceb;
+}
+
+.gom {
+	width: 1250px;
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+.gom .del_update {
+	text-align: center;
+}
+
+.gom .del_update table {
+	border: 2px solid #333;
+	border-color: black;
+}
+
+.gom .del_update table th, .gom .del_update table td {
+	width: 150px;
+	padding: 10px 0;
+	border: 2px solid #333;
+}
+
+.gom .del_update table th a, .gom .del_update table td a {
+	margin: 10px;
+	background: #705ecf;
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	border: none;
+	letter-spacing: 1px;
+}
+
+.gom .del_update table th a:hover, .gom .del_update table td a:hover {
+	background: #816ceb;
+}
+
+.sub {
+	background: #f7f7f7;
+	text-align: center;
+}
+
+.sub .container {
+	height: 450px;
+}
+
+.sub .container .top .con-top {
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.sub .container .top .con-top i {
+	margin: 0 auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 70px;
+	background: #05b993;
+	height: 70px;
+	font-size: 25px;
+	color: white;
+	border-radius: 50%;
+}
+
+.sub .container .top .con-top h2 {
+	margin-top: 20px;
+	color: #111;
+	font-size: 35px;
+	font-weight: 900 !important;
+}
+
+.sub .container .top .con-top p {
+	margin: 0 auto;
+	width: 700px;
+	color: #51585f;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+
+.sub .container .input input {
+	width: 550px;
+	border: none;
+	padding: 16px;
+	font-size: 15px;
+	letter-spacing: 2px;
+	background: #fff;
+	color: #51585f;
+	-webkit-box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+	box-shadow: 0px 11px 42px 1px rgba(58, 52, 82, 0.1);
+}
+
+.sub .container .input button {
+	background: #705ecf;
+	font-size: 15px;
+	padding: 16px 80px;
+	margin-left: -5px;
+	color: white;
+	border: none;
+	letter-spacing: 1px;
+}
+
+.sub .container .input button:hover {
+	background: #816ceb;
+}
+
+.sub .content2 {
+	border-top: 1px solid #dee2e6 !important;
+	width: 100%;
+	color: #705ecf;
+}
+
+.sub .content2 .bot {
+	width: 1300px;
+	height: 80px;
+}
+
+.sub .content2 .bot .left {
+	width: 120px;
+}
+
+.sub .content2 .bot .left>i {
+	cursor: pointer;
+}
+
+.sub .content2 .bot .mid {
+	font-size: 17px;
+	letter-spacing: 1px;
+	color: #333;
+}
+
+.sub .content2 .bot .mid a {
+	font-weight: 800;
+}
+
+.sub .content2 .bot .right>i {
+	cursor: pointer;
+	font-size: 25px;
+	color: #05b993;
+}
+/*# sourceMappingURL=admin.css.map */

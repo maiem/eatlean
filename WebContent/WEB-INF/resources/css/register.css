@@ -1,0 +1,87 @@
+form {
+	background: #c2e9fb96;
+	padding: 40px;
+	width: 550px;
+	height: 700px;
+}
+
+form a {
+	color: rgba(23, 26, 201, 0.89);
+}
+
+form h2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+form input {
+	border: 1px solid #29e0d1;
+	padding: 15px;
+	margin: 10px;
+	width: 450px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+form button {
+	margin-top: 30px;
+	padding: 10px 20px;
+	margin-left: 100px;
+	background: #9657f6;
+	border-radius: 20px;
+	border: none;
+}
+
+form button:hover {
+	background: #5f0adf;
+}
+
+form p {
+	text-align: center;
+	margin-top: 30px;
+}
+
+form err {
+	color: red;
+}
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	background: rgba(0, 0, 0, 0.199);
+	background-image: url("../img/bg1.jpg");
+	background-position: 65%;
+	background-blend-mode: darken;
+	background-size: cover;
+	margin: 0;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.f-center {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+/*# sourceMappingURL=login.css.map */
